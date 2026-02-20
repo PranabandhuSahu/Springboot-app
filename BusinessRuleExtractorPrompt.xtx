@@ -1,0 +1,28 @@
+You being an expert in designing and implementing LLM based project , can you please design and implement a project which should be satisfying below requirements. 
+Provide the project in a downloadable format and explain the architecture & implementation for better understating in a .PNG format. 
+
+Requirements : 
+	• The application should take the whole repo as an input and should provide the detailed business rules for the functionality used asked.
+	• There should be an upload button to upload the repo as a zip file or there should be an option to clone it from Bitbucket or Github.
+	• There should be an drop down to select by the user , on which type of project it is . (Java , Javascript, Angular, .NET, React).
+	• Once the user complete the first 2 option there should be an submit button , so that application can process the files/codes from the uploaded zip or cloned repo.
+	• Then it should show the list of files present on that repo so that user can select the file name , once file name is selected it should show the list of functions available on the file so that user can select the function name.
+	• Once function name is selected, there should be a button to "Extract business Rules" , Assumption is , user knows about the starting point of the functionality from where the logic starts.
+	• Now the AI based engine/logic should go to the repo and analyze all the context related to that function and variable and should provide the precise business logic to user.
+	• The output format should contain below fields.
+	•            File Name:
+		○ Strat Function:
+		○ Dependent Function and it's Filename :
+		○ Business Logic: Both in a descriptive and pseudo code. manner (don't include the variable name on the logic , explain on logic based on the functionality terms )
+	• Show the business logic in the UI screen and provide and option to download in an excel format.
+
+Rules:
+	• Implement this solution on free LLMS Ollama.
+	• Provide the uniqueness of the project uploaded. Means if a project with same name was already uploaded , show a notification saying project already present in context , please select a different project.
+	• Use free vector DB , of in build chroma DB.
+	• It should be performance effective , use RAG for the detailed context.
+	• Use python and streamlit app for the programming language.
+	• UI should be production grade rich UI.
+Don’t:
+Don't make the implementation complex , make it simple.
+ 
