@@ -10,7 +10,7 @@ Requirements :
 	• Once function name is selected, there should be a button to "Extract business Rules" , Assumption is , user knows about the starting point of the functionality from where the logic starts.
 	• Now the AI based engine/logic should go to the repo and analyze all the context related to that function and variable and should provide the precise business logic to user.
 	• The output format should contain below fields.
-	•            File Name:
+	•    File Name:
 		○ Strat Function:
 		○ Dependent Function and it's Filename :
 		○ Business Logic: Both in a descriptive and pseudo code. manner (don't include the variable name on the logic , explain on logic based on the functionality terms )
